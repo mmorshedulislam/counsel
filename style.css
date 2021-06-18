@@ -1,0 +1,409 @@
+/* -=-=-=-=-Google fonts-=-=-=-=-*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* -=-=-= font family-=-=-
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+/*-=-=-=header CSS-=-=-=-*/
+
+.counsel-header-area{
+  padding: 20px 0;
+  background: url(images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.logo-menu{}
+.logo{
+  float: left;
+}
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.menu-icon{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: 999;
+  display: ;
+}
+
+
+
+.menu{
+  float: right;
+}
+.menu ul{
+  display: flex;
+  justify-content: center;
+}
+.menu ul li{
+  list-style: none;
+  padding: 10px 20px;
+}
+.menu ul li a{
+  color: #b8bbc0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+.arrow{
+  float: left;
+  position: absolute;
+  bottom: 300px;
+  color: #fde428;
+
+
+}
+.arrow a{
+  color: #fde428;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+.borders{
+
+  width: 300px;
+  height: 300px;
+  margin-left: 400px;
+  margin-top: 100px;
+  float: right;
+  position: relative;
+}
+.border-img{}
+.border-img img{}
+.border-text span{
+  color: #fff;
+  font-size: 35px;
+  position: absolute;
+  right: 250px;
+  top: 75px;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.border-text a p{
+  color: #fde428;
+  font-size: 20px;
+  text-align: right;
+  font-weight: 700;
+  position: absolute;
+  top: 270px;
+  left: -80px;
+  text-decoration: ;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 3px solid #fde428;
+}
+
+/*-=-=-=Take risk CSS-=-=-=-*/
+
+.counsel-take-risk-area{
+  padding: 80px 0;
+  background: #fff;
+  position: relative;
+}
+  .take-risk{}
+  .take-risk h1{
+    font-size: 31px;
+    font-family: 'Montserrat', sans-serif;
+    color: #002e5b;
+    font-weight: 700;
+  }
+  .take-risk span{
+    font-size: 21px;
+    color: #747474;
+    margin-top: 15px;
+  }
+  .take-risk p{
+    font-size: 16px;
+    color: #333333;
+    margin-top: 15px;
+  }
+  .take-risk a{
+    font-size: 16px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #002e5b;
+    border-bottom: 1px solid #002e5b;
+    padding-bottom: 4px;
+    text-decoration: none;
+    font-weight: 700;
+  }
+.box-1{
+  width: 250px;
+  height: 500px;
+  background: #fde52c;
+  position: absolute;
+  top: -80px;
+  right: 200px;
+}
+.box-2{
+  width: 500px;
+  height: 300px;
+  background: #a1a1a1;
+  position: absolute;
+  top: 30px;
+  right: 80px;
+
+}
+
+/*-=-=-=Graph CSS-=-=-=-*/
+.counsel-graph-area{
+  padding: 80px 0;
+  background: #f4f4f4;
+}
+
+.counsel-contact-area{
+  padding: 20px 0;
+  background: #002e5b;
+  overflow: hidden;
+}
+.Contact span{
+  float: left;
+  color: #FFF;
+  align-items: center;
+  font-size: 21px;
+}
+.Contact button{
+  float: right;
+  background: #fde428;
+  color: #002e5b;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-weight: 700;
+}
+
+/*-=-=-=Popular CSS-=-=-=-*/
+
+
+.counsel-popular-area{
+  padding: 80px 0;
+  background: #ffffff;
+}
+.popular-sec-title{
+  text-align: center;
+}
+.popular-sec-title h1{
+  color: #002e5b;
+  font-weight: 700;
+  font-size: 31px;
+  text-transform: uppercase;
+}
+.popular-sec-title p{
+  font-size: 21px;
+}
+.popular-items{
+  margin-top: 50px;
+}
+.popular-item{}
+.popular-item .box-3{
+  width: 100%;
+  height: 200px;
+  background: #69d2e7;
+  border-radius: 6px;
+}
+.popular-item h2{
+  font-weight: 700;
+  font-size: 26px;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.popular-item p{
+  font-size: 16px;
+  margin-top: 20px;
+}
+.popular-item .box-4{
+  width: 100%;
+  height: 200px;
+  background: #add478;
+  border-radius: 10px;
+}
+.popular-item .box-5{
+  width: 100%;
+  height: 200px;
+  background: #f49f77;
+  border-radius: 10px;
+}
+
+/*-=-=-=Popular CSS-=-=-=-*/
+
+
+.counsel-count-area{
+  padding: 50px 0;
+  background: #002e5b;
+  overflow: hidden;
+}
+.counter{
+  text-align: center;
+}
+.counter span{
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+
+}
+.counter p{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*-=-=-=Office CSS-=-=-=-*/
+
+
+
+.counsel-office-area{
+  padding: 80px 0;
+  background: #fff;
+}
+
+.box-6{
+  width: 500px;
+  height: 300px;
+  background: #002e5b;
+  position: absolute;
+  top: 30px;
+  right: 80px;
+
+}
+.box-6 a img{
+  margin-left: 38%;
+  margin-top: 20%;
+}
+
+/*-=-=-=Naration CSS-=-=-=-*/
+.counsel-narration-area{
+  background: #062747;
+  padding: 100px 0;
+}
+.naration{
+  text-align: center;
+  color: #fff;
+  width: 60%;
+  margin: 0 auto;
+}
+.naration span{
+  font-weight: 1000;
+  font-size: 50px;
+}
+.naration p{
+  font-size: 20px;
+}
+.naration h5{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  max-width: 250px;
+  margin: 0px  auto;
+  margin-top: 50px;
+  background: ;
+  position: relative;
+
+}
+.naration h5:before{
+  content: "";
+  display: block;
+  width: 35px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.naration h5:after{
+  content: "";
+  display: block;
+  width: 35px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+/*-=-=-=Contact us CSS-=-=-=-*/
+
+
+.counsel-contact-us-area{
+  padding: 100px 0;
+  background: #ffffff;
+}
+.contact-us-sec-title{
+  text-align: center;
+}
+.contact-us-sec-title h1{
+  color: #002e5b;
+  font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.contact-us-sec-title p{
+  color: #8c8c8c;
+  font-size: 18px;
+}
+.map{
+  color: #002e5b;
+  margin-top: 50px;
+  box-shadow: 1px 1px 5px;
+  padding-bottom: 60px;
+  position: relative;
+
+}
+.map h5{
+ margin-top: 30px;
+ margin-left: 30px;
+
+}
+.map span {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.map p {
+  font-size: 40px;
+  position: absolute;
+  top: 90px;
+  left: 46%;
+}
+
+
+.counsel-social-area{
+  padding: 20px 0;
+  background: #002e5b;
+  overflow: hidden;
+}
+.social-area{
+  color: #fff;
+}
+.social-text{
+  float: left;
+}
+.social-text p{}
+.social-icon{
+  float: right;
+
+}
+.social-icon a{
+  color: #fff;
+  margin-right: 7px;
+}
+
+.top{
+  width: 35px;
+  height: 35px;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
